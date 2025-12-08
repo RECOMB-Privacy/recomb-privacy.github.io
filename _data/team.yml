@@ -72,8 +72,19 @@
     # - {name: "twitter", link: "https://twitter.com/CamilleMrcht"}
     # - {name: "github", link: "https://github.com/kamimrcht"}
     - {name: "site", link: "https://www.cs.princeton.edu/people/profile/mona"}
-- 
+-
   id: 6
+  name: "Sinem"
+  surname: "Sav"
+  title: "Program Committee Chair"
+  thumbnailUrl: SinemSav.png
+  subTeam: true
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/OrensteinYaron"}
+    # - {name: "github", link: "https://github.com/OrensteinLab"}
+    - {name: "site", link: "https://sinemsav.github.io/"}
+- 
+  id: 7
   name: "Hoon"
   surname: "Cho"
   title: "Program Committee Chair"
@@ -84,14 +95,3 @@
     # - {name: "github", link: "https://github.com/kamimrcht"}
     - {name: "site", link: "https://hhcho.com"}
 - 
-  id: 7
-  name: "Sinem"
-  surname: "Sav"
-  title: "Program Committee Chair"
-  thumbnailUrl: SinemSav.png
-  subTeam: true
-  social: 
-    # - {name: "twitter", link: "https://twitter.com/OrensteinYaron"}
-    # - {name: "github", link: "https://github.com/OrensteinLab"}
-    - {name: "site", link: "https://sinemsav.github.io/"}
-
