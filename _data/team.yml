@@ -85,13 +85,13 @@
     - {name: "site", link: "https://hhcho.com"}
 - 
   id: 7
-  name: "Shalmali"
-  surname: "Joshi"
+  name: "Sinem"
+  surname: "Sav"
   title: "Program Committee Chair"
-  thumbnailUrl: ShalmaliJoshi.jpg
+  thumbnailUrl: SinemSav.png
   subTeam: true
   social: 
     # - {name: "twitter", link: "https://twitter.com/OrensteinYaron"}
     # - {name: "github", link: "https://github.com/OrensteinLab"}
-    - {name: "site", link: "https://shalmalijoshi.github.io/reAIM/"}
+    - {name: "site", link: "https://sinemsav.github.io/"}
 
