@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Committees"}
  - {permalink: "/speakers/", text: "Keynote Speakers"}
  - {permalink: "/program/", text: "Program"}
- - {permalink: "/history/", text: "History of RECOMB Privacy"}
+ - {permalink: "/history/", text: "Past Conferences"}
 bottomNavigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Submit a paper"}
 rightNavigationButtons:
@@ -50,7 +50,7 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "dna-dark.jpg"
-heroTitle: "RECOMB-Privacy 2025"
+heroTitle: "RECOMB Privacy 2026"
 heroSubTitle: "The 3rd RECOMB Satellite Conference on Biomedical Privacy"
 eventDate: "May 25, 2026"
 eventLocation: "Thessaloniki, Greece"
