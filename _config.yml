@@ -10,26 +10,26 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "RECOMB-P&E Conference"
-email: "recomb-privacy-equity@googlegroups.com"
-description: "RECOMB Satellite Conference on Biomedical Privacy and Equity"
+title: "RECOMB-Privacy Conference"
+email: "recomb-privacy@googlegroups.com"
+description: "RECOMB Satellite Conference on Biomedical Privacy"
 baseurl: ""
-url: "https://recomb-privacy-equity.github.io"
+url: "https://recomb-privacy.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "recomb-privacy-equity.github.io"
+googleAnalyticsSiteUrl: "recomb-privacy.github.io"
 siteVerification: ""
 
 # Organizer Info
-organizerName: "RECOMB-P&E"
-organizerAlternateName: "RECOMB-P&E"
-organizerDescription: "A research community tackling privacy and equity challenges in biomedical research"
-organizerEmail: "recomb-privacy-equity@googlegroups.com"
+organizerName: "RECOMB-Privacy"
+organizerAlternateName: "RECOMB-Privacy"
+organizerDescription: "A research community tackling privacy challenges in biomedical research"
+organizerEmail: "recomb-privacy@googlegroups.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "https://github.com/RECOMB-Privacy-Equity"
+organizerLink: "https://github.com/RECOMB-Privacy"
 
 # Head
-metaKeywords: "recomb, privacy, equity"
+metaKeywords: "recomb, privacy"
 # twitterAccount: "@recombseq"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -42,7 +42,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Committees"}
  - {permalink: "/speakers/", text: "Keynote Speakers"}
  - {permalink: "/program/", text: "Program"}
-# - {permalink: "/history/", text: "History of RECOMB SEQ"}
+ - {permalink: "/history/", text: "History of RECOMB Privacy"}
 bottomNavigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Submit a paper"}
 rightNavigationButtons:
@@ -50,10 +50,10 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "dna-dark.jpg"
-heroTitle: "RECOMB-P&E 2025"
-heroSubTitle: "The 2nd RECOMB Satellite Conference on Biomedical Privacy and Equity"
-eventDate: "April 25, 2025"
-eventLocation: "Seoul, South Korea"
+heroTitle: "RECOMB-Privacy 2025"
+heroSubTitle: "The 3rd RECOMB Satellite Conference on Biomedical Privacy"
+eventDate: "May 25, 2026"
+eventLocation: "Thessaloniki, Greece"
 #typeoutTextValues: '"2023"'
 #typeoutFallback: "2023"
 heroButtons:
@@ -61,7 +61,7 @@ heroButtons:
  #- {permalink: "/#tickets", text: "Attend RECOMB SEQ 2023"}
 
 # About Block
-aboutTitle: "About RECOMB P&E"
+aboutTitle: "About RECOMB Privacy"
 # aboutBlock:
 # - {title: "RECOMB-SEQ", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
@@ -90,12 +90,12 @@ eventLocationName: "TBD"
 eventLocationLink: "TBD"
 eventStreetAddress: "TBD"
 eventAddressLocality: ""
-eventAddressLocalityRegion: "Seoul"
+eventAddressLocalityRegion: "Thessaloniki"
 eventPostalCode: ""
-eventAddressCountry: "South Korea"
-eventStartTime: "2025-04-24T08:00"
+eventAddressCountry: "Greece"
+eventStartTime: "2026-05-25T08:00"
 eventDoorTime: "09:00"
-eventEndTime: "2025-04-25T18:00"
+eventEndTime: "2026-05-25T18:00"
 eventPlaceCoordinates: "37.5617613,126.9353254"
 mapCenterCoordinates: "37.5617613,126.9353254"
 mapMobileCenterCoordinates: "37.5617613,126.9353254"
@@ -112,7 +112,7 @@ venueFeatures: [""]
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "RECOMBPrivacyEquity"
+twitterHashTag: "RECOMBPrivacy"
 #twitterFeed: " https://twitter.com/recombseq"
 
 
@@ -131,7 +131,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:recomb-privacy-equity@googlegroups.com", text: "recomb-privacy-equity@googlegroups.com"}
+   - {link: "mailto:recomb-privacyy@googlegroups.com", text: "recomb-privacy@googlegroups.com"}
  -
   title: "Policies"
   links:
