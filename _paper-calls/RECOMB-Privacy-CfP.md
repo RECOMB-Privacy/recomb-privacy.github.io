@@ -58,7 +58,7 @@ Abstracts describing original work will be considered for short oral presentatio
 ---
 Manuscripts for the Proceedings Track should not exceed 10 pages using at least 10 point font on U.S. standard 8 1/2 by 11 inch paper with no less than one inch margin all around. This excludes the cover page and references. The cover page should have the title and the corresponding author’s email address. An optional short appendix can be included if necessary but reading it will be at the discretion of the program committee. Manuscripts must be submitted electronically in PDF format via the EasyChair system.
 
-In EasyChair, please select “RECOMB-Privacy 2026” track within RECOMB conference at <https://easychair.org/conferences/?conf=recomb2025>
+In EasyChair, please select “RECOMB-Privacy 2026” track within RECOMB conference at <https://easychair.org/conferences/?conf=recomb2026>
 
 An author of each accepted paper or abstract is expected to attend the conference in person to present the work.
 
