@@ -6,7 +6,7 @@ isStaticPost: true
 ---
 
 #### Previous Meetings
- - 2025: Seoul, South Korea <!-- [Website](./2025/index.html) TODO: Update following and activate link here (https://recomb-privacy.github.io/2025). -->
+ - 2025: Seoul, South Korea [[Website](https://recomb-privacy.github.io/2025/)]
  - 2024: Boston, MA, USA [[Website](https://recombprivacy2024.bilkent.edu.tr/)]
 
 #### Program Committee Chairs
