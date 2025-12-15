@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "RECOMB-Privacy Conference"
 email: "recomb-privacy@googlegroups.com"
-description: "RECOMB Satellite Conference on Biomedical Privacy"
+description: "RECOMB Satellite Conference on Biomedical Data Privacy"
 baseurl: ""
 url: "https://recomb-privacy.github.io"
 permalink: "/blog/:title"
