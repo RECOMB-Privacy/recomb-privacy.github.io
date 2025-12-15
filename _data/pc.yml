@@ -40,11 +40,11 @@
   surname: "Cicek"
   company: "Bilkent University"
 
--
-  id: pc8
-  name: "Sinem"
-  surname: "Sav"
-  company: "Bilkent University"
+# -
+#   id: pc8
+#   name: "Sinem"
+#   surname: "Sav"
+#   company: "Bilkent University"
 
 #-
   #id: pc9
