@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "RECOMB-P&E 2025 Call for Papers"
+title:  "RECOMB-Privacy 2026 Call for Papers"
 isStaticPost: true
 ---
-#### RECOMB-P&E 2025 Call for Papers 
+#### RECOMB-Privacy 2026 Call for Papers 
 ---
 
-**The 2nd RECOMB Satellite Conference on Biomedical Privacy and Equity (RECOMB-P&E 2025)** will be held on **April 25th, 2025** in Seoul, South Korea just before the main RECOMB conference. The conference brings together leading researchers in computational biology and medicine to explore algorithmic solutions addressing critical ethical challenges in biomedical research related to data privacy and equity.
+**The 3rd RECOMB Satellite Conference on Biomedical Data Privacy (RECOMB-Privacy 2026)** will be held on **May 25th, 2026** in Thessaloniki, Greece just before the main RECOMB conference. The conference brings together leading researchers in computational biology and medicine to explore algorithmic solutions addressing critical ethical challenges in biomedical research related to data privacy and security.
 
 ---
 #### Topics
@@ -16,22 +16,20 @@ Topics of interest include, but are not limited to:
 * **Frameworks for balancing privacy and utility**: Designing frameworks that balance the need to safeguard privacy with the goal of enabling scientific progress.
 * **Secure computation**: Methods for analyzing sensitive biomedical data while preserving privacy via cryptography or other related techniques.
 * **Privacy-preserving data release**: Methods for releasing private datasets while minimizing risks to individuals.
-* **Trustworthy system design**: Techniques for enhancing trust in secure and equitable biomedical data ecosystems (e.g., verifiable computation).
-* **Incentive mechanisms**: Frameworks for aligning the interests of various stakeholders in biomedicine to promote secure and equitable data sharing.
-* **Bias identification in high-dimensional data**: Analyzing various forms of inequities present in genomic and health-related data and models.
-* **Algorithmic fairness and bias mitigation methods**: Developing methods to reduce bias and promote fairness and equity in biological AI.
+* **Trustworthy system design**: Techniques for enhancing trust in secure biomedical data ecosystems (e.g., verifiable computation).
+* **Incentive mechanisms**: Frameworks for aligning the interests of various stakeholders in biomedicine to promote secure data sharing.
 
 ---
 #### Key Dates
 ---
 
 Proceedings and Overlay Tracks:
-* Submission deadline: ~~February 5th~~ **February 10th**, 2025 23:59 AoE
-* Author notification: February 25th, 2025
+* Submission deadline: **March 2nd, 2026 23:59 AoE** (Anywhere on Earth)
+* Author notification: **March 27th, 2026**
  
 Highlights / Short Talks / Posters:
-* Abstract submission deadline: February 28th, 2025 23:59 AoE
-* Author notification: March 7th, 2025
+* Abstract submission deadline: **April 6th, 2026 23:59 AoE**
+* Author notification: **April 13th, 2026**
 
 ---
 #### Tracks
@@ -60,13 +58,13 @@ Abstracts describing original work will be considered for short oral presentatio
 ---
 Manuscripts for the Proceedings Track should not exceed 10 pages using at least 10 point font on U.S. standard 8 1/2 by 11 inch paper with no less than one inch margin all around. This excludes the cover page and references. The cover page should have the title and the corresponding author’s email address. An optional short appendix can be included if necessary but reading it will be at the discretion of the program committee. Manuscripts must be submitted electronically in PDF format via the EasyChair system.
 
-In EasyChair, please select “RECOMB-PE 2025” track within RECOMB conference at <https://easychair.org/conferences/?conf=recomb2025>
+In EasyChair, please select “RECOMB-Privacy 2026” track within RECOMB conference at <https://easychair.org/conferences/?conf=recomb2025>
 
 An author of each accepted paper or abstract is expected to attend the conference in person to present the work.
 
 ---
-##### Special handling of papers submitted to RECOMB 2025
+##### Special handling of papers submitted to RECOMB 2026
 ---
 
-If your paper was not selected by RECOMB 2025 and you wish to submit it to RECOMB-P&E, you have the option to transfer your reviews. To do so, please submit a single combined PDF that includes the reviews from RECOMB, followed by a rebuttal addressing the concerns raised. The manuscript should be revised according to the reviews or include an explanation of why revisions were not made. All reviews will be treated confidentially and will only be accessible to the program committee members. Authors of papers rejected by RECOMB 2024 may also submit their papers to RECOMB-P&E without transferring their reviews, if they prefer.
+If your paper was not selected by RECOMB 2026 and you wish to submit it to RECOMB-Privacy, you have the option to transfer your reviews. To do so, please submit a single combined PDF that includes the reviews from RECOMB, followed by a rebuttal addressing the concerns raised. The manuscript should be revised according to the reviews or include an explanation of why revisions were not made. All reviews will be treated confidentially and will only be accessible to the program committee members. Authors may also submit their papers to RECOMB-Privacy without transferring their reviews, if they prefer.
 
