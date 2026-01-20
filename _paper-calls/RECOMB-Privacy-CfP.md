@@ -19,6 +19,7 @@ Topics of interest include, but are not limited to:
 * **Trustworthy system design**: Techniques for enhancing trust in secure biomedical data ecosystems (e.g., verifiable computation).
 * **Incentive mechanisms**: Frameworks for aligning the interests of various stakeholders in biomedicine to promote secure data sharing.
 * **Privacy-preserving machine learning**: Methods that enable training, evaluation, and deployment of machine learning models on sensitive biomedical data while preserving individual privacy and/or model security.
+* **Uncertainty modeling**: Methods to quantify privacy risks and evaluate safeguards while capturing uncertainty in the model and underlying data.
 * **Privacy evaluation and benchmarking**: Metrics, benchmarks, and experimental methods for evaluating privacy risks, utility loss, and robustness of techniques in biomedical settings. 
 * **Human factors and usability**: Understanding how researchers, clinicians, and patients interact with privacy-preserving systems, and designing usable interfaces.
 * **Applied cryptography for biomedicine**: Advances in cryptographic techniques and protocols tailored to biomedical and health data settings, addressing tasks such as secure data storage and access, identity and consent management, key management, secure aggregation, and other real-world biomedical workflows.
