@@ -4,8 +4,8 @@
   surname: "Vaidya"
   company: "Rutgers University"
   thumbnailUrl: JaideepVaidya.jpg
-  title: "Professor"
-  abstract: "<b></b><br><p>TBD</p>"
+  title: "Distinguished Professor"
+  abstract: "<b></b><br><p>Abstract: TBA</p>"
   bio: "Jaideep Vaidya is a Distinguished Professor of Computer Information Systems and Vice Dean for Faculty Affairs and Research at Rutgers University, the Director of the Rutgers Institute for Data Science, Learning, and Applications. He received the B.E. degree in Computer Engineering from the University of Mumbai, the M.S. and Ph.D. degree in Computer Science from Purdue University. His general area of research is at the intersection of security, privacy, data mining, data management, and artificial intelligence. He has published over 200 technical papers in peer-reviewed journals and conference proceedings, and has received best paper awards from the premier conferences in data mining, databases, digital government, security, and informatics. He is a Fellow of the AAAS, ACMI, AIMBE, IAHSI, IEEE, and IFIP as well as an ACM Distinguished Scientist."
   social: 
     - {name: "site", link: "https://sites.rutgers.edu/jsvaidya/"}
