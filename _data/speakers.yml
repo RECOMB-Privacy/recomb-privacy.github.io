@@ -1,25 +1,25 @@
 - 
   id: 1
-  name: "Miran"
-  surname: "Kim"
-  company: "Hanyang University"
-  thumbnailUrl: MiranKim.jpg
-  title: "Associate Professor"
-  abstract: "<b>Homomorphic Encryption for Protecting Genomic Privacy</b><br><p>Homomorphic encryption is an encryption method to enable arbitrary computation on encrypted data without decryption. It has emerged as one of the promising solutions to address privacy issues in computation over sensitive data.  In this talk, I will introduce the basic construction of homomorphic encryption. We then focus on the recent development of homomorphic encryption. I will conclude with the state-of-art benchmarks of privacy preserving genomic analysis.</p>"
-  bio: "Miran Kim is an associate professor of the Department of Mathematics and affiliated with the Department of Computer Science at Hanyang University. Before joining Hanyang University, she was an assistant professor at the Department of Computer Science and Engineering and Graduate School of Artificial Intelligence at Ulsan National Institute of Science and Technology (UNIST). Her research focuses on developing novel strategies for secure and privacy-preserving data analysis using homomorphic encryption. She has extensive experience in implementing efficient cryptographic protocols for data query processing, genomic analysis, and machine learning."
+  name: "Jaideep"
+  surname: "Vaidya"
+  company: "Rutgers University"
+  thumbnailUrl: JaideepVaidya.jpg
+  title: "Professor"
+  abstract: "<b></b><br><p>TBD</p>"
+  bio: "Jaideep Vaidya is a Distinguished Professor of Computer Information Systems and Vice Dean for Faculty Affairs and Research at Rutgers University, the Director of the Rutgers Institute for Data Science, Learning, and Applications. He received the B.E. degree in Computer Engineering from the University of Mumbai, the M.S. and Ph.D. degree in Computer Science from Purdue University. His general area of research is at the intersection of security, privacy, data mining, data management, and artificial intelligence. He has published over 200 technical papers in peer-reviewed journals and conference proceedings, and has received best paper awards from the premier conferences in data mining, databases, digital government, security, and informatics. He is a Fellow of the AAAS, ACMI, AIMBE, IAHSI, IEEE, and IFIP as well as an ACM Distinguished Scientist."
   social: 
-    - {name: "site", link: "https://k-miran.github.io"}
+    - {name: "site", link: "https://sites.rutgers.edu/jsvaidya/"}
       #- {name: "twitter", link: "https://twitter.com/lh3lh3"}
-- 
-  id: 2
-  name: "Edward"
-  surname: "Choi"
-  company: "KAIST"
-  thumbnailUrl: EdwardChoi.jpg
-  title: "Associate Professor"
-  abstract: "<b>Training AI by Medical Data & Using AI on Medical Data: Privacy and Data-Quality</b><br><p>Recent AI research and development is mostly data-driven science, which is based on an increasingly more circular relationship between models and data; good data lets us train good models, and good models let us construct good data. This relationship is also true in medical AI, which has two (among many) added challenges specific to the medical domain: privacy and data quality. In this talk, I will first talk about training a clinical-domain LLM with synthetic clinical text so as to minimize privacy risk. Next, I will talk about how to use LLMs to evaluate medical data, specifically structured data and unstructured text, to detect potential inconsistencies between the two modalities.</p>"
-  bio: "Edward Choi is an associate professor of Kim Jaechul Graduate School of AI, KAIST. He received his PhD in Georgia Tech, under the supervision of Prof. Jimeng Sun, focusing on interpretable deep learning methods for electronic health records. Prior to joining KAIST, he worked on developing and analyzing medical prediction models at Google Brain and Google Health. His current research interests include question answering for multi-modal medical records, domain-specific reasoning LLMs, and medical data synthesis."
-  social: 
-    - {name: "site", link: "https://mp2893.com"}
+#- 
+#  id: 2
+#  name: "Edward"
+#  surname: "Choi"
+#  company: "KAIST"
+#  thumbnailUrl: EdwardChoi.jpg
+#  title: "Associate Professor"
+#  abstract: "<b>Training AI by Medical Data & Using AI on Medical Data: Privacy and Data-Quality</b><br><p>Recent AI research and development is mostly data-driven science, which is based on an increasingly more circular relationship between models and data; good data lets us train good models, and good models let us construct good data. This relationship is also true in medical AI, which has two (among many) added challenges specific to the medical domain: privacy and data quality. In this talk, I will first talk about training a clinical-domain LLM with synthetic clinical text so as to minimize privacy risk. Next, I will talk about how to use LLMs to evaluate medical data, specifically structured data and unstructured text, to detect potential inconsistencies between the two modalities.</p>"
+#  bio: "Edward Choi is an associate professor of Kim Jaechul Graduate School of AI, KAIST. He received his PhD in Georgia Tech, under the supervision of Prof. Jimeng Sun, focusing on interpretable deep learning methods for electronic health records. Prior to joining KAIST, he worked on developing and analyzing medical prediction models at Google Brain and Google Health. His current research interests include question answering for multi-modal medical records, domain-specific reasoning LLMs, and medical data synthesis."
+#  social: 
+#    - {name: "site", link: "https://mp2893.com"}
       #- {name: "twitter", link: "https://twitter.com/ProfMonaSingh"}
 #- {name: "github", link: "https://github.com/gioelelm"}
