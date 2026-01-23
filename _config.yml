@@ -149,7 +149,7 @@ collections:
     output: true
 
 # Speakers List Block
-showSessions: false
+showSessions: true
 
 # Team Block
 #teamBlockTitle: "About us"
