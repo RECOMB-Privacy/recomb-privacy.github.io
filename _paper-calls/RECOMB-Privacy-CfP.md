@@ -31,7 +31,7 @@ Topics of interest include, but are not limited to:
 
 Proceedings and Overlay Tracks:
 * Submission deadline: ~~March 9th~~ **March 16th, 2026 23:59 AoE** (Anywhere on Earth)
-* Author notification: **March 30th, 2026**
+* Author notification: **March 31st, 2026**
  
 Highlights / Short Talks / Posters:
 * Abstract submission deadline: **April 6th, 2026 23:59 AoE**
