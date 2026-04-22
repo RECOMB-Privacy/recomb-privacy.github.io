@@ -10,16 +10,16 @@
   social: 
     - {name: "site", link: "https://sites.rutgers.edu/jsvaidya/"}
       #- {name: "twitter", link: "https://twitter.com/lh3lh3"}
-#- 
-#  id: 2
-#  name: "Edward"
-#  surname: "Choi"
-#  company: "KAIST"
-#  thumbnailUrl: EdwardChoi.jpg
-#  title: "Associate Professor"
-#  abstract: "<b>Training AI by Medical Data & Using AI on Medical Data: Privacy and Data-Quality</b><br><p>Recent AI research and development is mostly data-driven science, which is based on an increasingly more circular relationship between models and data; good data lets us train good models, and good models let us construct good data. This relationship is also true in medical AI, which has two (among many) added challenges specific to the medical domain: privacy and data quality. In this talk, I will first talk about training a clinical-domain LLM with synthetic clinical text so as to minimize privacy risk. Next, I will talk about how to use LLMs to evaluate medical data, specifically structured data and unstructured text, to detect potential inconsistencies between the two modalities.</p>"
-#  bio: "Edward Choi is an associate professor of Kim Jaechul Graduate School of AI, KAIST. He received his PhD in Georgia Tech, under the supervision of Prof. Jimeng Sun, focusing on interpretable deep learning methods for electronic health records. Prior to joining KAIST, he worked on developing and analyzing medical prediction models at Google Brain and Google Health. His current research interests include question answering for multi-modal medical records, domain-specific reasoning LLMs, and medical data synthesis."
-#  social: 
-#    - {name: "site", link: "https://mp2893.com"}
-      #- {name: "twitter", link: "https://twitter.com/ProfMonaSingh"}
-#- {name: "github", link: "https://github.com/gioelelm"}
+- 
+  id: 2
+  name: "Marco"
+  surname: "Lorenzi"
+  company: "Inria Centre at Université Côte d'Azur"
+  thumbnailUrl: MarcoLorenzi.jpg
+  title: "Research Director"
+  abstract: "<b></b><br><p>Abstract: TBA</p>"
+  bio: "Marco Lorenzi is Research Director (DR) in the EPIONE team at Inria Sophia Antipolis and Université Côte d’Azur. Prior to this position, he held an affiliate appointment within the School of Biomedical Engineering & Imaging Sciences at King's College London as Visiting Senior Lecturer, served as Research Associate in the Centre for Medical Image Computing at University College London, and worked as a Researcher at the Hospital San Giovanni di Dio Fatebenefratelli in Italy. His research focuses on statistical learning methods for modeling heterogeneous data in biomedical applications. Together with his team, he develops approaches to model disease progression from multimodal biomedical data in order to support clinical decision-making and simulate intervention strategies. His work also addresses the analysis of multi-centric biomedical information, with a particular emphasis on developing methods and software for collaborative learning in healthcare applications."
+  social: 
+    - {name: "site", link: "https://marcolorenzi.github.io/"}
+     #- {name: "twitter", link: "https://twitter.com/ProfMonaSingh"}
+     #- {name: "github", link: "https://github.com/gioelelm"}
