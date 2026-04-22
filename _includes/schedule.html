@@ -1,83 +1,227 @@
+ 
+<link href="{{ "/css/program.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+<link href="{{ "/css/fa.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
-    <div class="content-wrapper">
-        {% for day in site.data.schedule %}
-        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
-            <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
-            <div class="timeslot track-header stick-header">
-                <div class="track-header-label">Day {{ forloop.index }}</div>
-                <div class="timeslot-elements flexbox-wrapper">
-                    {% for track in day.tracks %}
-                    {% assign trackColWidth = 12 | divided_by: forloop.length %}
-                    <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
-                        <h5 class="track-header-title">{{ track.title }}</h5>
-                    </div>
-                    {% endfor %}
-                    <div class="track-header-slot col-xs-12 visible-xs">
-                        <h5 class="slot-detail track-header-title"></h5>
-                    </div>
-                </div>
-            </div>
-            {% for timeslot in day.timeslots %}
-            <div class="timeslot" itemtype="http://schema.org/subEvent">
-                <div class="timeslot-label">
-                    <time class="start-time" itemprop="startDate" datetime="{{ day.dateReadable }}T{{ timeslot.startTime }}">
-                        {% assign startTime = timeslot.startTime | split: ":" %}
-                        {{ startTime[0] }}<span>{{ startTime[1] }}</span>
-                    </time>
-                    <time class="end-time" itemprop="endDate" datetime="{{ day.dateReadable }}T{{ timeslot.endTime }}">
-                        {% assign endTime = timeslot.endTime | split: ":" %}
-                        {{ endTime[0] }}<span>{{ endTime[1] }}</span>
-                    </time>
-                </div>
-                <div class="timeslot-elements flexbox-wrapper">
-                    {% for slot in timeslot.sessionIds %}
-                        {% assign slotColWidth = 12 | divided_by: forloop.length %}
-                        {% assign slotIndex = forloop.index0 %}
-                        {% if slot != 404 %}
-                            {% for session in site.data.sessions %}
-                                {% if slot == session.id and session.service == null %}
-                                <div id="session-{{ session.id }}" class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
-                                    <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
-                                    <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        <span class="slot-language">{{session.language | upcase}}</span>
-                                        <ul class="slot-speakers">
-                                            {% for speaker in site.data.speakers %}
-                                                {% for session_speaker in session.speakers %}
-                                                    {% if session_speaker == speaker.id %}
-                                                    <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
-                                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
-                                                        <span class="speaker-position">{{ speaker.company }}</span>
-                                                    </p>
-                                                    </li>
-                                                    {% endif %}
-                                                {% endfor %}    
-                                            {% endfor %}
-                                        </ul>
-                                    </div>
+    <div class="content-wrapper text-left">
+        <div class="col-12">
+            <section class="program section" id="program">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <h4>Friday, April 25, 2025 </h4>
+                            <hr>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">08:30 - 09:25</p>
                                 </div>
-                                {% elsif slot == session.id and session.service != null %}
-                                <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
-                                    <div class="color-line"></div>
-                                    <div class="slot-content">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        {% if session.description != null %}
-                                        <p class="service-description">{{ session.description }}</p>
-                                        {% endif %}
-                                    </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="activity"><b>Registration</b></p>
                                 </div>
-                                {% endif %}
-                            {% endfor %}
-                        {% else %}
-                        <div class="slot col-md-{{ slotColWidth }} hidden-xs blank-col flexbox-item-height"></div>
-                        {% endif %}
-                    {% endfor %}
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">09:25 - 09:30</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Opening</b>
+                                    <br>
+                                    <i>Sinem Sav and Hoon Cho</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">09:30 - 10:20</p>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-5 col-6">
+                                    <p class="invited-speaker"><a href="https://sites.rutgers.edu/jsvaidya/">Jaideep Vaidya</a></p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4 col-2">
+                                    <button type="button" class="btn-keynote" data-toggle="collapse" data-target="#keynote1"> Keynote
+                                        I</button>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm3 col-xs-3 col-4"></div>
+                                <div class="col-md-9 col-sm9 col-xs-9 col-8"><div id="keynote1" class="collapse in" style="">
+                                        <p class="text">
+                                        <b>Title TBD</b>
+                                        </p>
+                                        <button class="btn-abstract" data-toggle="collapse" data-target="#collapsek1" aria-expanded="true"><i class="fas fa-pencil-alt" aria-hidden="true"></i>Abstr[...]
+                                        <br>
+                                        <br>
+                                        <div class="collapse" id="collapsek1" style="">
+                                            <p class="text">
+                                            Abstract TBD
+                                            </p>
+                                        </div>
+                                    </div></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">10:20 - 10:40</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>On Practical Privacy Challenges of medical research in the US</b>
+                                    <br>
+                                    <i>Kirill Nikitin*, Afsana Ferdous, Gamze Gursoy and Lucy Simko</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">10:40 - 11:00</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Auditing Patient Privacy Risk in Synthetic Rare Disease Germline Data</b>
+                                    <br>
+                                    <i>Sikha Pentyala*, Ziwei Pan, Luca Foschini, Martine De Cock and Jineta Banerjee</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">11:00 - 11:45</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="activity">Coffee Break</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">11:45 - 12:05</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Icefish: Practical zk-SNARKs for Verifiable Genomics</b>
+                                    <br>
+                                    <i>Alexander Frolov*, Maurice Shih, Rob Patro and Ian Miers</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">12:05 - 12:25</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Optimizing Secure Edit Distance Computation for Genomic Sequences via SMC Framework</b>
+                                    <br>
+                                    <i>Stelvio Cimato, Lorenzo Frasconi and Gabriella Trucco*</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">12:25 - 12:45</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>PVC: Private Pangenome Variant Calling</b>
+                                    <br>
+                                    <i>Jacob Blindenbach* and Gamze Gursoy</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">12:45 - 2:30</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="activity">Lunch break</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">2:30 - 3:20</p>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-5 col-6">
+                                    <p class="invited-speaker"><a href="https://marcolorenzi.github.io/">Marco Lorenzi</a></p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4 col-2">
+                                    <button type="button" class="btn-keynote" data-toggle="collapse" data-target="#keynote2"> Keynote
+                                        II</button>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm3 col-xs-3 col-4"></div>
+                                <div class="col-md-9 col-sm9 col-xs-9 col-8"><div id="keynote2" class="collapse in" style="">
+                                        <p class="text">
+                                        <b>Title TBD</b>
+                                        </p>
+                                        <button class="btn-abstract" data-toggle="collapse" data-target="#collapsek2" aria-expanded="true"><i class="fas fa-pencil-alt" aria-hidden="true"></i>Abst[...]
+                                        <br>
+                                        <br>
+                                        <div class="collapse" id="collapsek2" style="">
+                                            <p class="text">
+                                            Abstract TBD
+                                            </p>
+                                        </div>
+                                    </div></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">3:20 - 3:40</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Federated Generation of Synthetic RNA-seq Data</b>
+                                    <br>
+                                    <i>Daniil Filienko*, Martine De Cock and Sikha Pentyala</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">3:40 - 4:00</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                    <p class="text">
+                                    <b>Federated Latent Transition Modeling for Privacy-Preserving Analysis of PAIS Trajectories</b>
+                                    <br>
+                                    <i>Roy Gusinow*</i>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                    <p class="time">4:00 - 4:30</p>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-xs-9 col-8">
+                                    <p class="activity">Closing and Post-Meeting Coffee Break</p>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="row" style="text-align: left">
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-4">
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9 col-8">
+                                <p>* Presenter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
-</section>
-<!-- End Schedule Section -->
+            </section>
